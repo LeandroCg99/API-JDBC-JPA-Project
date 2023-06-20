@@ -1,0 +1,10 @@
+---
+- name: Hello Ansible
+  hosts: staging, review, production
+
+
+  tasks:
+    - name: Hello Server
+      shell: echo "Hello World"
+
+

@@ -1,0 +1,4 @@
+include:  
+    - project: 'COMUM/repo-default'
+      ref: spring-boot-java11-clean
+      file: '.gitlab-ci.yml'
